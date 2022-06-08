@@ -99,7 +99,7 @@ const Home = () => {
         </div>
         :
         <div className="header">
-        👋 Hey there! Connect your MetaMask Account and you'ld be able to send a wave!
+        👋 Hey there! Connect your MetaMask Account and you will be able to send a wave!
         </div>}
 
         <div className="bio">
