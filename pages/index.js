@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { ethers } from "ethers";
 import abi from "./utils/testContract.json";
+import Image from "next/image";
 
 const Home = () => {
 
@@ -168,9 +169,9 @@ const Home = () => {
         <br />
 
         <div className="flex justify-center">
-        <div class="avatar online m-auto w-24 ">
-          <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-            <img src="https://avatars.githubusercontent.com/u/52638069?s=400&u=9f2316ef1bd96706772ed6061176e9cdfc0dec57&v=4" />
+        <div className="avatar online m-auto w-24 ">
+          <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+            <Image alt="avatar" src="/avatar.jpeg" width={"100px"} height={"100px"} />
           </div>
         </div>
         </div>
